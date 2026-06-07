@@ -12,15 +12,12 @@
     ],
     "routes": [
         {
-            "src": "\/api\/(.*)",
-            "dest": "\/server\/index.js"
+            "src": "/api/(.*)",
+            "dest": "/server/index.js"
         },
         {
-            "handle": "filesystem"
-        },
-        {
-            "src": "\/(.*)",
-            "dest": "\/dist\/index.html"
+            "src": "/(.*)",
+            "dest": "/index.html"
         }
     ]
 }
