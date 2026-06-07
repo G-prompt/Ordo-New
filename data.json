@@ -1,0 +1,101 @@
+{
+  "users": {
+    "8c57635c-604b-4cd5-8c5c-6f38c0aaaac3": {
+      "id": "8c57635c-604b-4cd5-8c5c-6f38c0aaaac3",
+      "name": "Alex Developer",
+      "email": "alex@ordo.io",
+      "passwordHash": "$2a$08$x9vnqlBFZvkNPGcuhONbr.84dBuBs/KSFCD7ZTwqg/w1wH3fH1D5m"
+    },
+    "968c9bcb-e9d3-40a3-9382-5b7923a022fb": {
+      "id": "968c9bcb-e9d3-40a3-9382-5b7923a022fb",
+      "name": "Developer",
+      "email": "dev@ordo.io",
+      "passwordHash": "$2a$08$dEaMoQa596sIqErEIOqcx.ajv9H/ohPiMxj4YsaRNZ6GFHPBczOBi"
+    },
+    "a78c9bcb-e9d3-40a3-9382-5b7923a022fc": {
+      "id": "a78c9bcb-e9d3-40a3-9382-5b7923a022fc",
+      "name": "Sarah Engineer",
+      "email": "sarah@ordo.io",
+      "passwordHash": "$2a$08$x9vnqlBFZvkNPGcuhONbr.84dBuBs/KSFCD7ZTwqg/w1wH3fH1D5m"
+    },
+    "4489a798-c032-41f2-9e2e-2cfcc7f59655": {
+      "id": "4489a798-c032-41f2-9e2e-2cfcc7f59655",
+      "name": "Jordan Builder",
+      "email": "jordan@ordo.io",
+      "passwordHash": "$2a$08$d/DQuCWGmi2QMqMCclRsz.6vG.jTWlbnSlFaBybSwpJgHHDkptsy2"
+    },
+    "10003aae-2455-4bcb-be15-0af0d1f55498": {
+      "id": "10003aae-2455-4bcb-be15-0af0d1f55498",
+      "name": "Goodluck Emmanuel",
+      "email": "creativeworks358@gmail.com",
+      "passwordHash": "$2a$08$dNwJItO/4krNtDogFjQRv.facJmPOqQJtTq4JprSm01vQTIJzZkCW"
+    },
+    "6e4e455e-f1ba-451b-b55d-7a41d53e031d": {
+      "id": "6e4e455e-f1ba-451b-b55d-7a41d53e031d",
+      "name": "Test User",
+      "email": "test@ordo.local",
+      "passwordHash": "$2a$08$AygLlEYDphn68jojEZUOm.6vJjvBu6Kn3Oh7zsDamBs9TqSNnNFva"
+    }
+  },
+  "sessions": {
+    "f33b53c1-3a29-4144-8d32-c95205029c65": "8c57635c-604b-4cd5-8c5c-6f38c0aaaac3",
+    "a5e568ba-e1ac-4608-892a-bc6f27fb053d": "968c9bcb-e9d3-40a3-9382-5b7923a022fb",
+    "a6acd805-71d8-4faf-9c00-89eb3e14de23": "4489a798-c032-41f2-9e2e-2cfcc7f59655",
+    "9b50fb57-dded-48cf-b537-5888031c3ea4": "10003aae-2455-4bcb-be15-0af0d1f55498",
+    "48b6e343-9213-44b1-a0b5-7dab7a8a3b17": "10003aae-2455-4bcb-be15-0af0d1f55498",
+    "1111bcab-e128-416b-a423-948ee17bd2d7": "10003aae-2455-4bcb-be15-0af0d1f55498",
+    "874df20f-764b-49a7-b5b9-9402f2fe65eb": "10003aae-2455-4bcb-be15-0af0d1f55498",
+    "f206a786-84ca-4ea6-af35-48e6a1e15c4a": "10003aae-2455-4bcb-be15-0af0d1f55498",
+    "2aa8c2e8-b037-4aa2-95a9-be985fcc0ef6": "6e4e455e-f1ba-451b-b55d-7a41d53e031d",
+    "05b25e10-0e03-4e61-9ae6-6346bbd826ad": "6e4e455e-f1ba-451b-b55d-7a41d53e031d"
+  },
+  "projects": {
+    "57aba570-aa2b-4fb6-8469-b4f6a2bea092": {
+      "id": "57aba570-aa2b-4fb6-8469-b4f6a2bea092",
+      "ownerId": "8c57635c-604b-4cd5-8c5c-6f38c0aaaac3",
+      "title": "Test Project",
+      "description": "Prototype test",
+      "repositoryUrl": "https://example.com/repo",
+      "createdAt": "2026-06-06T18:44:41.000Z",
+      "verifications": [
+        "182ebe5f-6acf-4e62-b1af-b9bfc2dbb655"
+      ]
+    }
+  },
+  "portfolios": {
+    "8c57635c-604b-4cd5-8c5c-6f38c0aaaac3": [
+      {
+        "id": "94120895-5c12-4bb3-acab-bfd1f520db0a",
+        "projectId": "57aba570-aa2b-4fb6-8469-b4f6a2bea092",
+        "title": "Test Project",
+        "description": "Prototype test",
+        "createdAt": "2026-06-06T18:44:41.000Z"
+      }
+    ]
+  },
+  "verifications": {
+    "182ebe5f-6acf-4e62-b1af-b9bfc2dbb655": {
+      "id": "182ebe5f-6acf-4e62-b1af-b9bfc2dbb655",
+      "projectId": "57aba570-aa2b-4fb6-8469-b4f6a2bea092",
+      "assessor": "AI",
+      "score": 94,
+      "verifiedAt": "2026-06-06T18:45:07.198Z",
+      "assessorId": "ai"
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "title": "Frontend Internship",
+      "company": "Tech Co",
+      "location": "Remote"
+    },
+    {
+      "id": "opp-2",
+      "title": "Research Assistant",
+      "company": "University Lab",
+      "location": "Accra"
+    }
+  ],
+  "mentors": {}
+}
