@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
@@ -244,4 +245,9 @@ app.get('*', (req, res) => {
 });
 
 const port = process.env.PORT || 3000;
-app.listen(port, () => console.log('ORDO prototype server listening on', port));
+if (require.main === module) {
+    app.listen(port, () => console.log('ORDO prototype server listening on', port));
+}
+
+module.exports = app;
+
